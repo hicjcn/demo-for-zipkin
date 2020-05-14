@@ -13,5 +13,13 @@
     <artifactId>micro-service-core</artifactId>
     <version>1.0.0</version>
 
+    <dependencies>
+        <!--  Google类库-->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+        </dependency>
+
+    </dependencies>
 
 </project>

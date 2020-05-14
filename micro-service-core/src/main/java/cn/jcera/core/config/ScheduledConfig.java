@@ -1,4 +1,4 @@
-package cn.jcera.restapi.config;
+package cn.jcera.core.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
