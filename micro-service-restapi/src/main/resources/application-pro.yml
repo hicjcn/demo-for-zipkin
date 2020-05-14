@@ -1,4 +1,9 @@
+server:
+  port: 80
+
 spring:
+  devtools:
+    add-properties: false
   cloud:
     #服务发现
     consul:
