@@ -4,7 +4,7 @@ MAINTAINER hicjcn hicjcn@gmail
 
 VOLUME /app
 
-ADD ./micro-service-restapi/target/micro-service-restapi-1.0.0.jar app.jar
+ADD ./target/micro-service-restapi-1.0.0.jar app.jar
 
 RUN bash -c 'touch /app.jar'
 
