@@ -7,12 +7,12 @@ spring:
   cloud:
     #服务发现
     consul:
-      port: 800
-      host: 127.0.0.1
-      enabled: false
+      port: 8500
+      host: consul.consul
+      enabled: true
       discovery:
         #consul注册的主机地址
-        hostname: yx-device.yx
+        hostname: micro-service.jcera
         catalogServicesWatch:
           enabled: false
         #consul健康检查的地址
