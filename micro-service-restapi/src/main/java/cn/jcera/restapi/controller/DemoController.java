@@ -25,7 +25,7 @@ public class DemoController {
 
     @GetMapping("get-hello")
     public ResultBean<String> getHello(String name) {
-        String url = "http://final-service/v1/demo?name=" + name;
+        String url = "http://middle-service-1/v1/demo?name=" + name;
         try {
             Thread.sleep((int) (Math.random() * 500));
         } catch (InterruptedException e) {
