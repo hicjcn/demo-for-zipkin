@@ -21,7 +21,11 @@ spring:
         tags: service
         #是否注册到consul上
         register: true
-
+  zipkin:
+    base-url: http://139.159.134.67:9411/
+  sleuth:
+    sampler:
+      probability: 1
 
 # springboot actuator 健康检查
 management:

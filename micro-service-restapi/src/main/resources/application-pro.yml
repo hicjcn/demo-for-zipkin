@@ -9,7 +9,7 @@ spring:
     consul:
       port: 8500
       host: consul.consul
-      enabled: true
+      enabled: false
       discovery:
         #consul注册的主机地址
         hostname: micro-service.jcera
@@ -23,6 +23,11 @@ spring:
         tags: service
         #是否注册到consul上
         register: true
+  zipkin:
+    base-url: http://zipkin.zipkin:9411/
+  sleuth:
+    sampler:
+      probability: 1
 
 
 # springboot actuator 健康检查
